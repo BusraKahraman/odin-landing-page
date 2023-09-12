@@ -7,29 +7,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="font-roboto">
-    <header class="bg-gray-800 text-center px-0 py-4">
-      <div class="flex justify-between relative mx-auto my-0 w-4/5 max-w-5xl">
+    <header class="px-0 py-4 text-center bg-gray-800">
+      <div class="relative flex justify-between w-4/5 max-w-5xl mx-auto my-0">
         <img src="images/logo.png" alt="logo" class="h-10" />
-        <nav class="flex justify-end items-center relative w-full h-auto">
-          <ul class="text-gray-200 flex m-0 text-center">
-            <li class="mr-6">link one</li>
-            <li class="mr-6">link two</li>
-            <li>link three</li>
+        <nav class="relative flex items-center justify-end w-full h-auto">
+          <ul class="flex m-0 text-center text-gray-200">
+            <a href="#">
+              <li class="mr-6">link one</li>
+            </a>
+            <a href="#">
+              <li class="mr-6">link two</li>
+            </a>
+            <a href="#">
+              <li>link three</li>
+            </a>
           </ul>
         </nav>
       </div>
     </header>
     <main class="bg-gray-800">
-      <div class="flex w-4/5 max-w-5xl mx-auto my-0">
+      <div class="flex w-4/5 max-w-5xl px-0 py-16 mx-auto my-0">
         <div class="w-full">
-          <h1 class="font-r-black uppercase text-5xl text-odin-white">
+          <h1 class="mb-8 text-5xl font-black text-odin-white">
             This website is awesome
           </h1>
-          <p class="text-lg text-gray-200">
+          <p class="mb-8 text-lg text-gray-200">
             This website has some subtext that goes here under the main title.
             It's a smaller font and the color is lower contrast
           </p>
-          <button class="bg-odin-blue rounded-lg text-odin-white">
+          <button
+            class="px-8 py-1 font-bold rounded bg-odin-blue text-odin-white"
+          >
             Sign Up
           </button>
         </div>
@@ -37,10 +45,111 @@
           <img
             src="images/teal_cupcakes.jpg"
             alt="Six teal icing cupcakes with sprinkles"
-            class="w-full"
+            class="w-4/5 h-auto ml-16"
           />
         </div>
       </div>
     </main>
+    <section>
+      <h2 class="mt-8 mb-16 text-4xl font-black text-center text-gray-800">
+        Some random information.
+      </h2>
+      <div class="relative w-4/5 max-w-5xl mx-auto my-16">
+        <div class="flex items-center justify-center max-w-5xl gap-8">
+          <div class="w-2/12">
+            <div class="aspect-square">
+              <img
+                src="images/celebratory.jpg"
+                alt="Celebratory Cupcakes"
+                class="object-cover w-full h-full rounded"
+              />
+            </div>
+            <p class="mt-2 text-center">
+              This is some subtext under an illustration or image
+            </p>
+          </div>
+          <div class="w-2/12">
+            <div class="aspect-square">
+              <img
+                src="images/pastel.jpg"
+                alt="Three cupcakes on white wood"
+                class="object-cover w-full h-full rounded"
+              />
+            </div>
+            <p class="mt-2 text-center">
+              This is some subtext under an illustration or image
+            </p>
+          </div>
+          <div class="w-2/12">
+            <div class="aspect-square">
+              <img
+                src="images/pink.jpg"
+                alt="Cupcake with pink icing on top"
+                class="object-cover w-full h-full rounded"
+              />
+            </div>
+            <p class="mt-2 text-center">
+              This is some subtext under an illustration or image
+            </p>
+          </div>
+          <div class="w-2/12">
+            <div class="aspect-square">
+              <img
+                src="images/blue.jpg"
+                alt="Blue cupcake"
+                class="object-cover w-full h-full rounded"
+              />
+            </div>
+            <p class="mt-2 text-center">
+              This is some subtext under an illustration or image
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-200">
+      <div class="w-4/5 max-w-5xl px-0 py-16 mx-auto my-0">
+        <div class="px-16">
+          <p class="text-4xl italic font-light text-gray-800">
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it's just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+          </p>
+          <h3 class="text-lg font-bold text-right">-Thor, God of Thunder</h3>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex w-3/5 max-w-5xl py-8 mx-auto my-16 rounded bg-odin-blue">
+        <div class="w-full ml-24 text-odin-white">
+          <h3 class="font-bold">Call to action! It's time!</h3>
+          <p class="text-xs">
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <div class="w-full ml-32">
+          <button
+            class="h-auto px-8 py-1 font-bold border-2 rounded border-odin-white text-odin-white"
+          >
+            Sign up
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="flex items-center justify-center text-xs text-gray-200 bg-gray-800"
+    >
+      <div class="max-w-5xl py-8">
+        <p>
+          Copyright &#169; The Odin Project 2023. Coded by
+          <a
+            href="https://github.com/BusraKahraman"
+            target="_blank"
+            class="font-bold text-purple-950 hover:underline visited:text-pink-700"
+            >Büşra Kahraman</a
+          >.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

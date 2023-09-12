@@ -1,5 +1,13 @@
 # Odin Landing Page
 
+## Introduction
+
+Landing Page is a project part of the HTML Foundations section of the Odin Project.
+
+## Screenshots
+
+![Desktop view](images/desktop.png)
+
 ## Image Credits
 
 [Six teal icing cupcakes with sprinkles](https://unsplash.com/photos/pGM4sjt_BdQ)\
